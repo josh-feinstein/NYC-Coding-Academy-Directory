@@ -12,7 +12,7 @@ export default () => {
                 <p>&copy; Josh Feinstein </p>
             </div>
             <div className="git">
-                <a href="https://github.com/pillboxmediainc/senior-enrichment" target="_blank"><img src="/images/github.svg" width="20px" /></a>
+                <a href="https://github.com/pillboxmediainc/NYC-Coding-Academy-Directory" target="_blank"><img src="/images/github.svg" width="20px" /></a>
             </div>
         </div>
     )
