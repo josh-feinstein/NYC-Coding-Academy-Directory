@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(#e6e4e4, #858484);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+  border-radius: 10px;
+}
+td {
+  padding: 10px;
+  align-content: center;
+}
+
+input, select{
+  margin: 16px 0px;
+  margin-left: 40px;
+}
+
+.first-and-last-name-inputs{
+  margin: 0;
+  margin-left: 40px;
+}
+
+.campus-update-inputs {
+  margin-left: -30px;
+}
+
+.campus-view-students-list {
+  margin: -2px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navLink {
+  background-color: rgb(250, 34, 41);
+  color: #ffffff;
+  text-transform: none;
+  padding: 10px 10px;
+  margin: 10px 5px;
+  vertical-align: middle;
+  line-height: 40px;
+  max-height: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0px;
+}
+
+.navLink:hover{
+  background-color: #E41F27;
+}
+
+button {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  text-transform: none;
+  padding: 0px 30px 0px 30px;
+  margin: 10px 10px 30px 10px;
+  vertical-align: middle;
+  line-height: 40px;
+  min-height: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 40px;
+}
+
+button:focus {outline:0;}
+
+button:hover {
+  background-color: #1a70b6;
+}
+
+nav {
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  margin: 80px 0px 70px 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.singleStudent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-bar-items {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.nav-bar-buttons {
+  margin: 0px 0px 0px 15px;
+}
+
+#footer {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  color: black;
+  border-top: 5px solid #E41F27;
+}
+
+.falogo {
+  position: relative;
+  text-align: left;
+  width: auto;
+  max-width: 150px;
+  margin: 10px;
+  bottom: -2px;
+}
+
+.credits {
+  position: absolute;
+  right: 45px;
+  color: black;
+  bottom: 5px;
+}
+
+.git {
+  position: absolute;
+  right: 20px;
+  color: black;
+  bottom: 17px;
+}
+
+textarea {
+ margin-left: 100px;
+}
