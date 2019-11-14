@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const GOT_CAMPUSES_FROM_SERVER = 'GOT_CAMPUSES_FROM_SERVER'
-const ADDED_CAMPUS_TO_DATABASE = "ADDED_CAMPUS_TO_DATABASE"
+const ADDED_CAMPUS_TO_DATABASE = 'ADDED_CAMPUS_TO_DATABASE'
 
 const gotCampusesFromServer = (campuses) => {
     return { type: GOT_CAMPUSES_FROM_SERVER, campuses }
